@@ -34,5 +34,5 @@ for elem in list2:
     if elem.string != None and len(elem.string)<30:
         Titles.append(elem.string)
 my_dict = {'Titles':Titles}
-df1 = pd.DataFrame(my_dict)
-df1.to_csv('Headers.csv')
+df = pd.DataFrame(my_dict)
+df.to_csv('Headers.csv')
